@@ -1,0 +1,1 @@
+sudo docker run -d -p 27017:27017 --name risen-db mongo:4.2.3
