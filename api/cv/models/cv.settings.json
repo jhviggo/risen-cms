@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "cvs",
   "info": {
     "name": "cv"
   },
@@ -15,8 +17,16 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv-information-panels.contact"
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv-information-panels.categories"
     }
-  },
-  "connection": "default",
-  "collectionName": "cvs"
+  }
 }
