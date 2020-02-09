@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "components_cv_categories_panels",
+  "info": {
+    "name": "panels",
+    "icon": "graduation-cap"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "start": {
+      "type": "date"
+    },
+    "end": {
+      "type": "date"
+    },
+    "hasEndDate": {
+      "type": "boolean"
+    },
+    "currentDateIsEndDate": {
+      "type": "boolean",
+      "default": false
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

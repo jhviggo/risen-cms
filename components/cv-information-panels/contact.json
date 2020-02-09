@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "components_cv_contacts",
+  "info": {
+    "name": "contacts",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

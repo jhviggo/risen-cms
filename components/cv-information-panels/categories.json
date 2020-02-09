@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "components_cv_categories",
+  "info": {
+    "name": "categories",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "panels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cv-information-panels.panels"
+    }
+  }
+}
